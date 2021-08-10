@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Json Student Data</title>
+	
+</head>
+
+<body>
+	<p id="details"></p>
+</body>
+</html>
+	<script type="text/javascript">
+		let students = 
+			`[
+				{
+					"Name" : "Ali",
+					"Age" : 23,
+					"City" : "Karachi"
+				},
+				{
+					"Name" : "Hassan",
+					"Age" : 27,
+					"City" : "lahore"
+				},
+				{
+					"Name" : "Zubair",
+					"Age" : 34,
+					"City" : "Karachi"
+				}
+
+			]`;
+		const mystudents = JSON.parse(students);
+		document.getElementById("details").innerHTML = mystudents[1].Name;
+		//console.log(JSON.parse(students)[0].Name);
+	
+	
+	</script>

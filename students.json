@@ -1,0 +1,20 @@
+// JSON Document
+
+[
+	{
+		"Name" : "Ali",
+		"Age" : 23,
+		"City" : "Karachi"
+	},
+	{
+		"Name" : "Hassan",
+		"Age" : 27,
+		"City" : "lahore"
+	},
+	{
+		"Name" : "Zubair",
+		"Age" : 34,
+		"City" : "Karachi"
+	}
+	
+]
